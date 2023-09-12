@@ -1,11 +1,21 @@
 body {
     margin: 0;
-    overflow:hidden;
+    padding: 0;
+    background: linear-gradient(to right ,rgb(179, 182, 227) , rgb(188, 119, 234));
+    text-align: center;
   }
-.image{
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
+.description{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.form-label{
+  font-weight: bold;
+}
+.upload{
+  text-align: center;
+  margin: 30px;
+}
+.form{
+  margin-left: 200px;
+  margin-right: 200px;
 }

@@ -1,8 +1,13 @@
 const express = require ("express")
-const cors = require("cors")
 const { connectDatabase } = require("./Connection/Connect");
+const collection = require ("./Models/Model")
+const cors = require("cors");
 
-const app = express()
+
+app.use(express.json());
+app.use(cors());
+
+
 
 app.get("/get" , (req, res)=>{
     res.json("hi there");
